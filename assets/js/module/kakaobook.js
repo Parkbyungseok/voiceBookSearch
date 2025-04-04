@@ -1,5 +1,5 @@
 const API_URL = 'https://dapi.kakao.com/v3/search/book?';
-const API_KEY = '';
+const API_KEY = 'your-kakaoAPI';
 
 const api = async params =>{
   const queryString = new URLSearchParams(params).toString();
